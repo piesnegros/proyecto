@@ -1,0 +1,70 @@
+
+h1, h3 {
+    text-align: center;
+}
+
+#pagina {
+	z-index: 0;
+	background-color: #7A80F0;
+	width: auto;
+	height: auto;
+	
+}
+
+#cabecera {
+	z-index: 3;
+	background-color: #08088A;
+	position: fixed; /*  Posicionamiento fijo: variante del posicionamiento absoluto que convierte una caja en un elemento inamovible, de forma que su posición en la pantalla siempre es la misma independientemente del resto de elementos e independientemente de si el usuario sube o baja la página en la ventana del navegador. */
+ 	top: 0%;
+    bottom: 80%;
+    right: 0%;
+    left: 0%; 
+	box-shadow: 0px 0px 20px 3px #2E2EFE;
+	border-radius: 4px;
+}
+
+#menu {
+	background-color: #134DCA;
+	position: absolute; /* Posicionamiento absoluto: la posición de una caja se establece de forma absoluta respecto de su elemento contenedor y el resto de elementos de la página ignoran la nueva posición del elemento. */
+	top: 80%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#izquierda {
+	z-index: 2;
+	background-color: C5CDDF;
+	position: fixed;
+	top: 20%;
+	bottom: 0%;
+	right: 85%;
+	left: 0%;
+	box-shadow: 0px 0px 20px 3px #EAEEF5;
+	border-radius: 4px;
+}
+
+#derecha {
+	z-index: 2;
+	background-color: C5CDDF;
+	position: fixed; 
+	top: 20%;
+	bottom: 0%;
+	right: 0%;
+	left: 85%;
+	box-shadow: 0px 0px 20px 3px #EAEEF5;
+	border-radius: 4px;
+}
+
+#cuerpo {
+	z-index: 1;
+	background-color: #E6E9F0;
+	position: absolute; /* Posicionamiento relativo: variante del posicionamiento normal que consiste en posicionar una caja según el posicionamiento normal y después desplazarla respecto de su posición original. */
+	top: 20%;
+	left: 15%;
+	right: 15%;
+
+}
+
+
+
