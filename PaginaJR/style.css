@@ -31,6 +31,37 @@ h1, h3 {
     left: 0%;
 }
 
+/*Define el estilo general del menú, y los elementos en condiciones normales. Añade el siguiente código:*/
+ul#opcion {
+	margin-top:0;
+    margin-left: 21%;
+    padding-left: 15%;
+    list-style-type: none;
+}
+
+#opcion li {
+    border: #0A44C2 3px solid;
+    margin: 0px;
+    float: left;
+	width: 65px;
+	text-align: center;
+}	
+
+#opcion a { 
+  display: block; 
+  text-decoration: none;
+  color: #000000;
+}
+/*Definiremos un estilo distinto que afecte a los elementos de la lista cuando tienen el cursor encima, utilizando la pseudoclase :hover. Añade el siguiente código:*/
+
+#opcion li:hover {
+  border-color: #2E5CC1;
+  background-color: #6286D3;
+}
+#opcion li:hover a {
+  color: #000;
+}
+
 #izquierda {
 	z-index: 2;
 	background-color: C5CDDF;
@@ -70,6 +101,20 @@ h1, h3 {
 	box-shadow: 0px 4px 20px 3px #2E2EFE;
 	border-radius: 4px;
 	height: 5%;
+}
+
+#buscador {
+position: fixed;
+right: 1%;
+top: 2%;
+}
+
+.buscador {
+position: fixed;
+right: 15%;
+top: 0%;
+color:red;
+font-weight:bold
 }
 
 
